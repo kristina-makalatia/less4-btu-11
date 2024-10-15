@@ -1,0 +1,59 @@
+/* header  */
+.header-element {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  padding: 15px;
+}
+.ul-item {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.header-main {
+ position: sticky;
+ top: 0;
+ left: 0;
+ z-index: 100;
+}
+.wraper {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  position: relative;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 2;
+}
+.box2 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  position: absolute;
+  top: 100px;
+  right: 120px;
+  z-index: 3;
+}
+
+/*  */
+.image-text {
+  width: 511px;
+  height: 270px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+}
+.image-wraper {
+  position: relative;
+}
+.image-el {
+  width: 100%;
+}
